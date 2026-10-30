@@ -1,7 +1,11 @@
-> Destiné aux débutants et à but pédagogique, j'ai réalisé ce projet il y a plusieurs années à mes débuts en informatique. Il est donc loin de respecter toutes les règles de l'art en développement et en programmation. Je l'ai conçu avec l'aide d'Anthony Maréchal. N'hésitez pas à corriger, compléter, modifier, ou d'ajouter vos remarques et bonnes pratiques soit par l'intermédiaire de Pull requests ou d'issues, c'est aussi pour ça que je le partage avec la communauté Github 💪 😀.
+# Système de fichiers distribué : étude de la tolérance aux pannes
 
-Système de fichiers en réseau tolérant aux pannes en C.
+Projet étudiant réalisé avec Anthony Maréchal, conservé comme archive pédagogique. Le dépôt GitHub a été créé le 16 janvier 2017.
 
-Je vous conseille la lecture de la documentation qui explique plus en détail le fonctionnement.
+Étude et prototype en C d’un système de fichiers en réseau, avec réplication des données et comparaison de stratégies de coordination.
 
-![alt text](schema.jpg?raw=true "schema")
+Le [rapport d’analyse](documentation.pdf) décrit les architectures envisagées et la solution retenue. Il présente des choix de conception, sans constituer une validation de la résilience du prototype.
+
+![Architecture étudiée](schema.jpg?raw=true "Schéma")
+
+Ce dépôt conserve le code et le rapport historiques. Les propositions d’amélioration sont bienvenues dans les issues et les pull requests.
